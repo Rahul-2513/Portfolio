@@ -17,13 +17,14 @@ const geistMono = Geist_Mono({
 });
 
 const outfit = Outfit({
-  variable: "--font-outfit", // ✅ Added variable
+  variable: "--font-outfit", 
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600"],
 });
 
 const ovo = Ovo({
-  variable: "--font-ovo", // ✅ Added variable
+  variable: "--font-ovo",
+  subsets: ["latin"],
   weight: ["400"],
 });
 
